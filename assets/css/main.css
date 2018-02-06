@@ -2243,6 +2243,10 @@ input[type="radio"]+label:before {
 	width: 100%;
 }
 
+.courseStepImg .mobi {
+	display: none;
+}
+
 
 /* List */
 
@@ -3202,6 +3206,26 @@ body.is-loading #header:after {
 	/* Footer */
 	#footer {
 		padding: 3em 1.5em 3em 1.5em;
+	}
+
+	.courseStepImg .pc {
+		display: none;
+	}
+
+	.courseStepImg .mobi.stepgroup1 {
+		display: inline-block;
+		width: 60%;
+    height: 80%;
+    display: inline-block;
+    margin-bottom: 48px;
+	}
+
+	.courseStepImg .mobi.stepgroup2 {
+		display: inline-block;
+		width: 80%;
+    height: 80%;
+    display: inline-block;
+    margin-bottom: 48px;
 	}
 }
 
